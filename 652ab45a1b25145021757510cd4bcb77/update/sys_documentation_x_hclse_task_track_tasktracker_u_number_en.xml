@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_number" label="Number" language="en" table="x_hclse_task_track_tasktracker">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_number</element>
+            <help/>
+            <hint/>
+            <label>Number</label>
+            <language>en</language>
+            <name>x_hclse_task_track_tasktracker</name>
+            <plural>Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>CEilbert@sdgecontractor.com</sys_created_by>
+            <sys_created_on>2020-07-09 22:33:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d0a53ad31b31549021757510cd4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Number</sys_name>
+            <sys_package display_value="Task Tracker" source="x_hclse_task_track">652ab45a1b25145021757510cd4bcb77</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Task Tracker">652ab45a1b25145021757510cd4bcb77</sys_scope>
+            <sys_update_name>sys_documentation_x_hclse_task_track_tasktracker_u_number_en</sys_update_name>
+            <sys_updated_by>CEilbert@sdgecontractor.com</sys_updated_by>
+            <sys_updated_on>2020-07-09 22:33:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="knowledge_transfer" label="Knowledge Transfer" language="en" table="x_hclse_task_track_task_tracker_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>knowledge_transfer</element>
+            <help/>
+            <hint/>
+            <label>Knowledge Transfer</label>
+            <language>en</language>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <plural>Knowledge Transfers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>CEilbert@sdgecontractor.com</sys_created_by>
+            <sys_created_on>2020-06-25 22:41:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>734e7006871a511069660e97cebb35ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Knowledge Transfer</sys_name>
+            <sys_package display_value="Task Tracker" source="x_hclse_task_track">652ab45a1b25145021757510cd4bcb77</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Task Tracker">652ab45a1b25145021757510cd4bcb77</sys_scope>
+            <sys_update_name>sys_documentation_x_hclse_task_track_task_tracker_table_knowledge_transfer_en</sys_update_name>
+            <sys_updated_by>CEilbert@sdgecontractor.com</sys_updated_by>
+            <sys_updated_on>2020-06-25 22:41:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

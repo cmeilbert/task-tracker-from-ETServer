@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="target_release" table="x_hclse_task_track_task_tracker_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>target_release</element>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2020-09-11 17:13:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>774eb006871a511069660e97cebb3523</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>target_release</sys_name>
+            <sys_package display_value="Task Tracker" source="x_hclse_task_track">652ab45a1b25145021757510cd4bcb77</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Task Tracker">652ab45a1b25145021757510cd4bcb77</sys_scope>
+            <sys_update_name>sys_choice_x_hclse_task_track_task_tracker_table_target_release</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2020-09-11 17:13:59</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>July Release</label>
+            <language>en</language>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2020-09-11 17:13:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e4253f71b07105021757510cd4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2020-09-11 17:13:59</sys_updated_on>
+            <value>July Release</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>August Release</label>
+            <language>en</language>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2020-09-11 17:13:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be4253f71b07105021757510cd4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2020-09-11 17:13:59</sys_updated_on>
+            <value>August Release</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>September Release</label>
+            <language>en</language>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2020-09-11 17:13:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe4253f71b07105021757510cd4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2020-09-11 17:13:59</sys_updated_on>
+            <value>September Release</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>January Release</label>
+            <language>en</language>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>CEilbert@sdgecontractor.com</sys_created_by>
+            <sys_created_on>2021-01-06 01:28:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52eb5ed91bede41421757510cd4bcb72</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>CEilbert@sdgecontractor.com</sys_updated_by>
+            <sys_updated_on>2021-01-06 01:29:01</sys_updated_on>
+            <value>January Release</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>February Release</label>
+            <language>en</language>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>CEilbert@sdgecontractor.com</sys_created_by>
+            <sys_created_on>2021-01-06 01:29:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7efbde511b21281421757510cd4bcbb4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>CEilbert@sdgecontractor.com</sys_updated_by>
+            <sys_updated_on>2021-01-06 01:29:17</sys_updated_on>
+            <value>February Release</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
