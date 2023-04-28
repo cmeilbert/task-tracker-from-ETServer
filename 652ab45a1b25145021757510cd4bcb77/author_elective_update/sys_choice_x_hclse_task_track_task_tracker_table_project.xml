@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="project" table="x_hclse_task_track_task_tracker_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>project</element>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-19 19:10:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a7e13a0387ead1106722b886dabb35f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>project</sys_name>
+            <sys_package display_value="Task Tracker" source="x_hclse_task_track">652ab45a1b25145021757510cd4bcb77</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Task Tracker">652ab45a1b25145021757510cd4bcb77</sys_scope>
+            <sys_update_name>sys_choice_x_hclse_task_track_task_tracker_table_project</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-19 19:10:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Impact.COM</dependent_value>
+            <element>project</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Policy-Compliance-Audit-Q42022</label>
+            <language>en</language>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-19 19:10:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d5c2e8b87aad1106722b886dabb352a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-19 19:10:40</sys_updated_on>
+            <value>Policy-Compliance-Audit-Q42022</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Department of Energy</dependent_value>
+            <element>project</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vulnerability Response Q42022-Q12023</label>
+            <language>en</language>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>colleen</sys_created_by>
+            <sys_created_on>2022-10-22 00:33:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>772f4af31baa9d106e8aec61ec4bcb45</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>colleen</sys_updated_by>
+            <sys_updated_on>2022-12-21 01:31:24</sys_updated_on>
+            <value>Vulnerability Response Q42022-Q12023</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Templar Shield</dependent_value>
+            <element>project</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal Tasks</label>
+            <language>en</language>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>colleen</sys_created_by>
+            <sys_created_on>2022-11-01 23:48:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c4e6e97873ad1506722b886dabb35d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>colleen</sys_updated_by>
+            <sys_updated_on>2022-11-01 23:48:30</sys_updated_on>
+            <value>Internal Tasks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>So Cal Edison</dependent_value>
+            <element>project</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SIR-GRC-Q42022</label>
+            <language>en</language>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>colleen</sys_created_by>
+            <sys_created_on>2022-11-01 23:48:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb2e6e97873ad1506722b886dabb3548</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>colleen</sys_updated_by>
+            <sys_updated_on>2022-11-01 23:48:09</sys_updated_on>
+            <value>SIR-GRC-Q42022</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Sempra</dependent_value>
+            <element>project</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VR Staff Aug</label>
+            <language>en</language>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>colleen</sys_created_by>
+            <sys_created_on>2022-11-01 23:49:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab6e22d7873ad1506722b886dabb35d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>colleen</sys_updated_by>
+            <sys_updated_on>2022-11-01 23:49:15</sys_updated_on>
+            <value>VR Staff Aug</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Department of Energy</dependent_value>
+            <element>project</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Config Compliance Q42022-Q12023</label>
+            <language>en</language>
+            <name>x_hclse_task_track_task_tracker_table</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>colleen</sys_created_by>
+            <sys_created_on>2022-12-21 01:31:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00db174bdb7399108647198d13961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>colleen</sys_updated_by>
+            <sys_updated_on>2022-12-21 01:31:49</sys_updated_on>
+            <value>Config Compliance Q42022-Q12023</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

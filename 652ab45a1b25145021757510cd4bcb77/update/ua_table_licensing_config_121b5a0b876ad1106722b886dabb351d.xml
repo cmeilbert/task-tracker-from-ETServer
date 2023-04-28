@@ -4,24 +4,24 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_hclse_task_track_task_tracker_table</name>
+        <name>x_hclse_task_track_tasktracker</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>CEilbert@sdgecontractor.com</sys_created_by>
-        <sys_created_on>2020-06-24 00:44:12</sys_created_on>
+        <sys_created_on>2020-06-24 16:52:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>7b4eb006871a511069660e97cebb3514</sys_id>
+        <sys_id>121b5a0b876ad1106722b886dabb351d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_hclse_task_track_task_tracker_table</sys_name>
+        <sys_name>x_hclse_task_track_tasktracker</sys_name>
         <sys_package display_value="Task Tracker" source="x_hclse_task_track">652ab45a1b25145021757510cd4bcb77</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Task Tracker">652ab45a1b25145021757510cd4bcb77</sys_scope>
-        <sys_update_name>ua_table_licensing_config_7b4eb006871a511069660e97cebb3514</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_121b5a0b876ad1106722b886dabb351d</sys_update_name>
         <sys_updated_by>CEilbert@sdgecontractor.com</sys_updated_by>
-        <sys_updated_on>2020-06-24 00:44:12</sys_updated_on>
+        <sys_updated_on>2020-06-24 16:52:29</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Task Tracker Data - NOT CURRENTLY USING" max_length="40" name="x_hclse_task_track_task_tracker_data" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true,readonly_clickthrough=true,ref_auto_completer=AJAXReferenceChoice,ref_sequence=order" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Parent" max_length="100" name="parent" reference="x_hclse_task_track_task_tracker_data" reference_qual="type=Customer^EQ" reference_qual_condition="type=Customer^EQ" type="reference">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true,readonly_clickthrough=true,ref_auto_completer=AJAXReferenceChoice,ref_sequence=order" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Customer" sequence="1" value="customer"/>
+                <element inactive_on_update="false" label="Project" sequence="2" value="project"/>
+            </choice>
+        </element>
+        <element display="true" label="Value" max_length="100" name="value" type="string"/>
+    </element>
+</database>

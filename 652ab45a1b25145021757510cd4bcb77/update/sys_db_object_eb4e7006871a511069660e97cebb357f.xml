@@ -9,6 +9,7 @@
         <create_access>false</create_access>
         <create_access_controls>false</create_access_controls>
         <delete_access>false</delete_access>
+        <extension_model/>
         <is_extendable>false</is_extendable>
         <label>tasktracker</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -17,8 +18,10 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Import Set Row" name="sys_import_set_row">0eae0294db22030047fc7db33c96191f</super_class>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">fc3da3c10f325600cc1885ace1050e1b</super_class>
+        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
         <sys_created_by>CEilbert@sdgecontractor.com</sys_created_by>
         <sys_created_on>2020-06-24 16:52:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>

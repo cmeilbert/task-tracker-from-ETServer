@@ -2,6 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_column1" table="x_hclse_task_track_tasktracker">
         <active>true</active>
         <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
@@ -24,7 +25,6 @@
         <element>u_column1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
@@ -42,6 +42,7 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
@@ -49,6 +50,7 @@
         <sys_created_on>2020-06-24 17:50:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>2b4e7006871a511069660e97cebb35bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Column1</sys_name>
         <sys_package display_value="Task Tracker" source="x_hclse_task_track">652ab45a1b25145021757510cd4bcb77</sys_package>
         <sys_policy/>
@@ -64,7 +66,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

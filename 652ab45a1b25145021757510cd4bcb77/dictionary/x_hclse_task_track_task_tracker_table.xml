@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Task Tracker" max_length="40" name="x_hclse_task_track_task_tracker_table" sizeclass="41" type="collection">
+        <element label="Acceptance Criteria" max_length="1000" name="acceptance_criteria" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assignee" max_length="32" name="assignee" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Blocked" max_length="40" name="blocked" type="boolean"/>
+        <element choice="1" label="Customer" mandatory="true" max_length="100" name="customer" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Impact.COM" sequence="0" value="Impact.COM"/>
+                <element inactive_on_update="false" label="Department of Energy" sequence="1" value="Department of Energy"/>
+                <element inactive_on_update="false" label="So Cal Edison" sequence="2" value="So Cal Edison"/>
+                <element inactive_on_update="false" label="Sempra" sequence="3" value="Sempra"/>
+                <element inactive_on_update="false" label="Templar Shield" sequence="4" value="Templar Shield"/>
+            </choice>
+        </element>
+        <element label="Dependencies" max_length="40" name="dependencies" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Epic" max_length="40" name="epic" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Estimated Effort (Hours)" max_length="40" name="estimated_effort_hours" type="integer"/>
+        <element label="Knowledge Transfer" max_length="4000" name="knowledge_transfer" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Pending" label="Passed QA" max_length="40" name="passed_qa" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="Pending"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="3" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,readonly_clickthrough=true,ref_auto_completer=AJAXReferenceChoice,ref_sequence=order" choice="1" dependent="customer" dependent_on_field="customer" label="Project" max_length="100" name="project" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Impact.COM" inactive_on_update="false" label="Policy-Compliance-Audit-Q42022" sequence="1" value="Policy-Compliance-Audit-Q42022"/>
+                <element dependent_value="Department of Energy" inactive_on_update="false" label="Vulnerability Response Q42022-Q12023" sequence="2" value="Vulnerability Response Q42022-Q12023"/>
+                <element dependent_value="Templar Shield" inactive_on_update="false" label="Internal Tasks" sequence="3" value="Internal Tasks"/>
+                <element dependent_value="So Cal Edison" inactive_on_update="false" label="SIR-GRC-Q42022" sequence="3" value="SIR-GRC-Q42022"/>
+                <element dependent_value="Sempra" inactive_on_update="false" label="VR Staff Aug" sequence="3" value="VR Staff Aug"/>
+                <element dependent_value="Department of Energy" inactive_on_update="false" label="Config Compliance Q42022-Q12023" sequence="4" value="Config Compliance Q42022-Q12023"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Responsibility" max_length="40" name="responsibility" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="eGRC" sequence="0" value="egrc"/>
+                <element inactive_on_update="false" label="TVM" sequence="1" value="tvm"/>
+                <element inactive_on_update="false" label="VR Dashboard Team" sequence="2" value="vr_dashboard_team"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Work In Progress" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Work Complete" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="In QA/UAT" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Ready for Prod" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Change Created" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Deployed to Prod" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="On Hold" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="9" value="9"/>
+            </choice>
+        </element>
+        <element label="Summary" max_length="154" name="summary" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Target Release Month" max_length="40" name="target_release" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="July Release" sequence="1" value="July Release"/>
+                <element inactive_on_update="false" label="August Release" sequence="2" value="August Release"/>
+                <element inactive_on_update="false" label="September Release" sequence="3" value="September Release"/>
+                <element inactive_on_update="false" label="January Release" sequence="4" value="January Release"/>
+                <element inactive_on_update="false" label="February Release" sequence="5" value="February Release"/>
+            </choice>
+        </element>
+        <element label="Target Release Date" max_length="40" name="target_release_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Project Item" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Incident" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="TVM Task" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Operational" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="4000" name="work_notes" type="journal"/>
+        <index name="index">
+            <element name="assignee"/>
+        </index>
+    </element>
+</database>
